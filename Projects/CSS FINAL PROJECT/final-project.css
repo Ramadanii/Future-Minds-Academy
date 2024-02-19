@@ -170,7 +170,7 @@ aside {
 .location {
     background-color: white;
     border-radius: 10px;
-    height: 300px;
+
 }
 
 .country {
@@ -371,5 +371,50 @@ aside {
     .header2 {
         display: flex;
         justify-content: space-between;
+    }
+
+    .country {
+        grid-template-columns: 1fr;
+    }
+
+    .listings {
+        grid-template-columns: 1fr;
+
+    }
+}
+
+
+@media (max-width: 650px) {
+    aside {
+        display: none;
+    }
+
+    .country {
+        grid-template-columns: 1fr;
+    }
+
+    .country {
+        grid-template-columns: 1fr;
+
+    }
+
+    .divCards {
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .couchCards {
+        width: 50%;
+    }
+
+    .listings {
+        grid-template-columns: 1fr;
+
+    }
+
+    .bckGroundImg {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
