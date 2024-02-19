@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="final-project.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <aside>
+        <section>
+            <div class="asideList marginBottom logo">
+                <div>
+                    <h4>CP</h4>
+                </div>
+                <h4>COOL PAGE</h4>
+            </div>
+            <hr>
+
+            <div class="asideList avatar">
+                <figure>
+                    <img class="avatarImg" src="image/avatar.jpg" alt="avatar">
+                </figure>
+                <p>John Doe</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+            <hr>
+
+            <div class="asideList active">
+                <figure>
+                    <img src="icons/asides/asideDashboard.svg" alt="dashboard">
+                </figure>
+                <p>Dashboard</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/pages.svg" alt="pages">
+                </figure>
+                <p>Pages</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/components.svg" alt="components">
+                </figure>
+                <p>Components</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/form.svg" alt="form">
+                </figure>
+                <p>Forms</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/table.svg" alt="table">
+                </figure>
+                <p>Tables</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/map.svg" alt="map">
+                </figure>
+                <p>Maps</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/widget.svg" alt="widget">
+                </figure>
+                <p>Widgets</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/chart.svg" alt="chart">
+                </figure>
+                <p>Charts</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+
+            <div class="asideList">
+                <figure>
+                    <img src="icons/asides/calendar.svg" alt="calendar">
+                </figure>
+                <p>Calendar</p>
+                <figure>
+                    <img width="20px" src="icons/asides/expandMore.svg" alt="icon">
+                </figure>
+            </div>
+        </section>
+    </aside>
+
+    <!-- HEADER -->
+
+
+    <div class="headerMain margin20">
+        <header>
+            <section>
+                <div class="header">
+                    <div class="dFlex alignItemCenter gapHeader">
+                        <figure title="Dashboard">
+                            <img class="round" src="icons/header/more.svg" alt="more">
+                        </figure>
+                        <p>Dashboard</p>
+                    </div>
+                    <div class="dFlex alignItemCenter gapHeader">
+                        <form class="dFlex">
+                            <input class="headerInput" type="search" id="search" placeholder="Search">
+                            <label for="search">
+                                <img title="Search" class="round" src="icons/header/search.svg" alt="search">
+                            </label>
+                        </form>
+                        <figure>
+                            <img src="icons/header/headerDashboard.svg" alt="dashboard">
+                        </figure>
+                        <div class="notiFication">
+                            <figure>
+                                <img src="icons/header/notifications.svg" alt="notifacations">
+                            </figure>
+                            <p class="notiFicationP dFlex alignItemCenter">5</p>
+                            <div class="notificationMsg">
+                                <p>John Doe sent a message</p>
+                                <p>Someone viewed your profile</p>
+                                <p>Johyne Doe sent a message</p>
+                                <p>Some viewed your profile</p>
+                                <p>Another notifaction</p>
+                            </div>
+                        </div>
+                        <figure>
+                            <img src="icons/header/headerAvatar.svg" alt="headerAvatar">
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section class="header2">
+                <h1>Dashboard</h1>
+                <img class="round" src="icons/header/more.svg" alt="more">
+            </section>
+        </header>
+
+        <!-- MAIN-->
+        <main>
+
+            <section>
+                <div class="location marginTop">
+                    <div class="dFlex imgGlobal">
+                        <div>
+                            <figure>
+                                <img class="language" src="icons/cards/language.svg" alt="language">
+                            </figure>
+                        </div>
+                        <div class="globalImg">
+                            <p>Global Sales by Top Location</p>
+                        </div>
+                    </div>
+
+                    <div class="country paddingXMain gapNumberLocation">
+                        <div class="countryS">
+                            <div class="dFlex spaceBetween gapCountryNumber ">
+                                <div class="dFlex">
+                                    <figure>
+                                        <img class=" img" src="flags/kosovo.svg" alt="kosovo">
+                                    </figure>
+                                    <p>Kosovo</p>
+                                </div>
+                                <div class="dFlex gapNumberLocation">
+                                    <p>2.900</p>
+                                    <p>53.23%</p>
+                                </div>
+                            </div>
+                            <hr>
+
+
+                            <div class="dFlex spaceBetween alignItemCenter ">
+                                <div class="dFlex ">
+                                    <figure>
+                                        <img class="img" src="flags/albania.svg" alt="albania">
+                                    </figure>
+                                    <p>Albania</p>
+                                </div>
+                                <div class="dFlex gapNumberLocation">
+                                    <p>2.900</p>
+                                    <p>53.23%</p>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="dFlex spaceBetween">
+                                <div class="dFlex ">
+                                    <figure>
+                                        <img class="img" src="flags/italy.svg" alt="italy">
+                                    </figure>
+                                    <p>Italy</p>
+                                </div>
+                                <div class="dFlex gapNumberLocation">
+                                    <p>2.900</p>
+                                    <p>53.23%</p>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="dFlex spaceBetween ">
+                                <div class="dFlex ">
+                                    <figure>
+                                        <img class="img" src="flags/germany.svg" alt="germany">
+                                    </figure>
+                                    <p>Germany</p>
+                                </div>
+                                <div class="dFlex gapNumberLocation">
+                                    <p>2.900</p>
+                                    <p>53.23%</p>
+                                </div>
+                            </div>
+                            <hr>
+
+                            <div class="dFlex spaceBetween">
+                                <div class="dFlex ">
+                                    <figure>
+                                        <img class="img" src="flags/us.svg" alt="us">
+                                    </figure>
+                                    <p>USA</p>
+                                </div>
+                                <div class="dFlex gapNumberLocation">
+                                    <p>2.900</p>
+                                    <p>53.23%</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <iframe class="iframe "
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d752295.1388089181!2d20.902075449999998!3d42.56266295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13537af354bf7df1%3A0xbfffeedfabc31791!2sKosovo!5e0!3m2!1sen!2s!4v1707846891152!5m2!1sen!2s"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- CARDS -->
+            <section>
+
+                <div class="divCards marginTop">
+                    <!-- CARDS1 -->
+                    <div class="cards">
+                        <div class="dFlex spaceBetween marginBottom">
+                            <div>
+                                <figure>
+                                    <img class="couchCards bckGround" src="icons/cards/couch.svg" alt="couch">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="pdarkGrey">Bookings</p>
+                                <p>184</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="dFlex gapCards ">
+                            <figure>
+                                <img src="icons/cards/warning.svg" alt="warning">
+                            </figure>
+                            <p class="pdarkGrey">Get more space</p>
+                        </div>
+                    </div>
+
+                    <!-- CARDS2 -->
+                    <div class="cards">
+                        <div class="dFlex spaceBetween marginBottom ">
+                            <div>
+                                <figure>
+                                    <img class="couchCards bckGround2" src="icons/cards/equalizer.svg" alt="equalizer">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="pdarkGrey">Website Visits</p>
+                                <p>75.51</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="dFlex gapCards ">
+                            <figure>
+                                <img src="icons/cards/tracked.svg" alt="tracked">
+                            </figure>
+                            <p class="pdarkGrey">Tracked from Google Analytics</p>
+                        </div>
+                    </div>
+
+                    <!-- CARDS3 -->
+                    <div class="cards">
+                        <div class="dFlex spaceBetween marginBottom">
+                            <div>
+                                <figure>
+                                    <img class="couchCards bckGround3" src="icons/cards/storefront.svg"
+                                        alt="storefront">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="pdarkGrey">Revenue</p>
+                                <p>$34,245</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="dFlex gapCards">
+                            <figure>
+                                <img src="icons/cards/calendar.svg" alt="calendar">
+                            </figure>
+                            <p class="pdarkGrey">Las 24 Hours</p>
+                        </div>
+                    </div>
+
+                    <!-- CARDS4 -->
+
+                    <div class="cards">
+                        <div class="dFlex spaceBetween marginBottom ">
+                            <div>
+                                <figure>
+                                    <img class="couchCards bckGround4" src="icons/cards/public.svg" alt="public">
+                                </figure>
+                            </div>
+                            <div>
+                                <p class="pdarkGrey">Followers</p>
+                                <p>+245</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="dFlex alignItemCenter gapCards">
+                            <figure>
+                                <img src="icons/cards/update.svg" alt="update">
+                            </figure>
+                            <p class="pdarkGrey">Just Updated</p>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <!-- MANAGE LISTINGS -->
+            <section>
+                <div class="marginTop">
+                    <div>
+                        <h1>
+                            <h3>Manage Listings</h3>
+                        </h1>
+                    </div>
+
+                    <div class="listings marginTop">
+                        <!-- HOTEL 1-->
+                        <div class="bckGroundImg">
+                            <div class=" padding14 ">
+                                <div class="cardImgContainer">
+                                    <figure class="cardIcons">
+                                        <img title="view" src="icons/cards/view.svg" alt="view">
+                                        <img title="edit" src="icons/cards/edit.svg" alt="edit">
+                                        <img title="delete" src="icons/cards/delete.svg" alt="delete">
+                                    </figure>
+
+                                    <figure>
+                                        <img class="imgList" src="image/card-1.jpeg" alt="card-1">
+                                    </figure>
+                                </div>
+                                <div class="textAlign ">
+                                    <h3 class="threecards">Cozy 5 Stars Apartment</h3>
+
+                                    <p class="padding14">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Impedit, quas. Lorem
+                                        ipsum
+                                        dolor, sit amet consectetur adipisicing elit. Sit, odit?</p>
+
+                                </div>
+                                <hr>
+                                <div class="dFlex spaceBetween">
+                                    <p>$899/night</p>
+                                    <div class="dFlex">
+                                        <figure>
+                                            <img src="icons/cards/location.svg" alt="location">
+                                        </figure>
+                                        <p>Barcelona, Spain</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Office Studio-->
+                        <div class="bckGroundImg">
+                            <div class=" padding14 ">
+                                <div class="cardImgContainer">
+                                    <figure class="cardIcons">
+                                        <img title="view" src="icons/cards/view.svg" alt="view">
+                                        <img title="edit" src="icons/cards/edit.svg" alt="edit">
+                                        <img title="delete" src="icons/cards/delete.svg" alt="delete">
+                                    </figure>
+
+                                    <figure>
+                                        <img class="imgList" src="image/card-2.jpeg" alt="card-2">
+                                    </figure>
+
+                                </div>
+
+                                <div class="textAlign">
+                                    <h3 class="threecards">Office Studio</h3>
+                                    <p class=" padding14 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Impedit, quas. Lorem
+                                        ipsum
+                                        dolor, sit amet consectetur adipisicing elit. Sit, odit?</p>
+                                </div>
+                                <hr>
+                                <div class="dFlex spaceBetween">
+                                    <p>$1.899/night</p>
+                                    <div class="dFlex">
+                                        <figure>
+                                            <img src="icons/cards/location.svg" alt="location">
+                                        </figure>
+                                        <p>London, UK</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Beautiful Castle-->
+
+                        <div class="bckGroundImg">
+                            <div class=" padding14 ">
+                                <div class="cardImgContainer">
+                                    <figure class="cardIcons">
+                                        <img title="view" src="icons/cards/view.svg" alt="view">
+                                        <img title="edit" src="icons/cards/edit.svg" alt="edit">
+                                        <img title="delete" src="icons/cards/delete.svg" alt="delete">
+                                    </figure>
+
+                                    <figure>
+                                        <img class="imgList" src="image/card-3.jpeg" alt="">
+                                    </figure>
+
+                                </div>
+
+                                <div class="textAlign ">
+                                    <h3 class="threecards">Beautiful Castle</h3>
+                                    <p class=" padding14 ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        Impedit, quas. Lorem
+                                        ipsum
+                                        dolor, sit amet consectetur adipisicing elit. Sit, odit?</p>
+                                </div>
+                                <hr>
+                                <div class="dFlex spaceBetween ">
+                                    <p>$459/night</p>
+                                    <div class="dFlex">
+                                        <figure>
+                                            <img src="icons/cards/location.svg" alt="location">
+                                        </figure>
+                                        <p>Milan, Italy</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <hr class="marginTop">
+
+        <footer>
+            <section>
+                <div class="divFooter marginTop ">
+                    <div class="dFlex gapfooter">
+                        <h4>HOME</h4>
+                        <h4>COMPANY</h4>
+                        <h4>PORTOFOLIO</h4>
+                        <h4>BLOG</h4>
+                    </div>
+                    <div>
+                        <p> &copy; John Doe, 2023</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+
+
+}
+
+
+aside {
+    background-color: rgb(30, 30, 58);
+    color: white;
+    text-align: end;
+    padding: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+/*main*/
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    gap: 20px;
+}
+
+.pinnedPost {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+
+img {
+    width: 50px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.gap {
+    gap: 3em;
+}
+
+.cardInfo {
+    padding: 20px 0px;
+}
+
+.CSS {
+    background-color: green;
+    padding: 2px 10px;
+    opacity: 60%;
+}
+
+.html {
+    background-color: lightskyblue;
+    padding: 2px 10px;
+}
+
+.java {
+    background-color: red;
+    padding: 2px 10px;
+    opacity: 70%;
+}
+
+.textWhite {
+    color: white;
+}
+
+.textBlue {
+    color: blue;
+}

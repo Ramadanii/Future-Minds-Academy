@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.card {
+    height: 383px;
+    width: 300px;
+    border: 2px solid black;
+
+}
+
+.container {
+    display: flex;
+}
+
+.cardHeader {
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardBottom {
+    position: relative;
+}
+
+.cardBottomP {
+    position: absolute;
+    top: 95px;
+}

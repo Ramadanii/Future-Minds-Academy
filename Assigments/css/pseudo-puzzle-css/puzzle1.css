@@ -1,0 +1,9 @@
+.paragraf:hover {
+    color: white;
+    background-color: rgb(119, 88, 149);
+}
+
+.paragraf:hover::first-letter {
+    font-size: 1.5em;
+
+}

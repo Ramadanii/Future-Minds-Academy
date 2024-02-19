@@ -1,0 +1,52 @@
+* {
+    margin: 20;
+    padding: 20;
+}
+
+.container {
+    position: relative;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 30%;
+    height: 100%;
+}
+
+.marginClass {
+    margin: 15px;
+}
+
+.paddingClass {
+    padding: 10px;
+}
+
+.postionRelative {
+    position: relative;
+    color: black;
+    font-size: 1.5em;
+    top: -40px;
+}
+
+span {
+    position: absolute;
+    top: -9px;
+    right: -7px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 4px;
+
+}
+
+.videoContainer {
+    border: 2px solid black;
+    width: 200px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    padding: 20px;
+}
+
+.videoContainer video {
+    width: 100%;
+}

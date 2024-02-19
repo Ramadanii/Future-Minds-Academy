@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.div1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+}
+
+.imazhi {
+    width: 200px;
+    filter: blur(10px);
+    transform: rotate(1deg);
+    transition: filter 1s ease, transform 1s ease;
+    transition-delay: 0s, 0.1s;
+    border-radius: 70px;
+
+}
+
+.imazhi:hover {
+    filter: blur(0px);
+    transform: rotate(720deg);
+}

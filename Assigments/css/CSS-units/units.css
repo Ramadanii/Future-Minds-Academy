@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.h1 {
+    background-color: rgb(188, 188, 188);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 1em;
+}
+
+.h2 {
+    background-color: rgb(188, 188, 188);
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    font-size: 1em;
+}
+
+section:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+
+.h1 .h2 p {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+hr {
+    width: 33%;
+    border: 2px solid red;
+}

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(./image/bg1.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h2 {
+    color: palevioletred;
+    background-color: rgb(191, 192, 192);
+    background: linear-gradient(48deg, rgba(191, 192, 192, 1) 15%, rgba(29, 47, 111, 1) 64%);
+    text-align: left;
+    margin: 20px;
+}
+
+ul {
+    color: palevioletred;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+li {
+    margin: 0 0 0 40px;
+}
+
+.paragraph,
+p {
+    color: palevioletred;
+    background-color: rgb(191, 192, 192);
+    background: linear-gradient(48deg, rgba(191, 192, 192, 1) 15%, rgba(29, 47, 111, 1) 64%);
+    margin: 20px;
+}

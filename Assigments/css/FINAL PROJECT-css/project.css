@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Header*/
+
+.textAlignCenter {
+    text-align: center;
+}
+
+
+.personalPortofolio {
+    color: white;
+}
+
+/*nav*/
+
+.navBar li {
+    background-color: burlywood;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.dInline {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+.textWhite {
+    color: white;
+}
+
+/*main*/
+
+
+.section {
+    background-color: burlywood;
+    border-radius: 30px;
+    border: 4px solid transparent;
+}
+
+.section:hover {
+    border: 3px solid black;
+    background-color: chocolate;
+}
+
+.img {
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.padding20 {
+    padding: 20px;
+}
+
+.margin20 {
+    margin: 20px;
+}
+
+/*education*/
+
+.bgColor {
+    background-color: darksalmon;
+
+}
+
+.borderRadius {
+    border-radius: 50px 20px;
+    ;
+}
+
+/*my skills*/
+
+.borderYellow {
+    border: 1px solid yellow;
+}
+
+
+/*Contact me*/
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
+.inputMargin5 {
+    margin: 5px;
+}

@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.centerDiv2 {
+    background-color: white;
+    width: 200px;
+    border: 1px solid black;
+}

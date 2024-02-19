@@ -1,0 +1,20 @@
+.table {
+    color: white;
+    border-spacing: 0 2px;
+}
+
+.table th {
+    padding: 20px;
+}
+
+.table tr:first-child {
+    color: black;
+}
+
+.table tr:nth-child(odd) {
+    background-color: green;
+}
+
+.table tr:nth-child(even) {
+    background-color: lightgreen;
+}
