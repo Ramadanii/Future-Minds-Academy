@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: orange;
+    padding: 20px;
+}
+
+.asideMain {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    height: 100vh;
+}
+
+aside {
+    background-color: violet;
+    padding: 20px;
+}
+
+main {
+    background-color: green;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: blue;
+    padding: 20px;
+}
